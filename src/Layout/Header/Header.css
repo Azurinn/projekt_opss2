@@ -1,0 +1,21 @@
+.header {
+  min-height: 5vh;
+  background-color: #191d23;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  margin: 0;
+  padding: 15px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: white;
+}
+
+.active {
+  text-decoration: underline;
+}

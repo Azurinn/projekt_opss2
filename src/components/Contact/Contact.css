@@ -1,0 +1,28 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formField {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.formField input, .formField textarea {
+  width: 100%;
+}
+
+.button {
+  padding: 15px;
+  color: white;
+  background-color: #21282c;
+  border: 2px solid black;
+  border-radius: 15px;
+  cursor: pointer
+}
+
+.button:hover {
+  background-color: #14171a;
+  border: 2px solid black;
+}
